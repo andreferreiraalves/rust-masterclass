@@ -19,7 +19,7 @@ pub fn exibe_menu(titulo: &str, itens: &[&str], sair: bool) -> u32 {
 
     println!("{}", if sair { "* - Sair" } else { "* - Voltar" });
 
-    print!("\nEscolha uma opção:");
+    print!("\nEscolha uma opção: ");
     std::io::stdout().flush().unwrap();
 
     let mut linha = String::new();
